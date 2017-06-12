@@ -13,6 +13,7 @@
 		B8A987A21EEE9F71002BB0DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A987A01EEE9F71002BB0DA /* Main.storyboard */; };
 		B8A987A41EEE9F71002BB0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A987A31EEE9F71002BB0DA /* Assets.xcassets */; };
 		B8A987A71EEE9F71002BB0DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A987A51EEE9F71002BB0DA /* LaunchScreen.storyboard */; };
+		B8A987B01EEEA028002BB0DA /* redView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A987AF1EEEA028002BB0DA /* redView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B8A987A31EEE9F71002BB0DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8A987A61EEE9F71002BB0DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8A987A81EEE9F71002BB0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A987AE1EEEA028002BB0DA /* redView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redView.h; sourceTree = "<group>"; };
+		B8A987AF1EEEA028002BB0DA /* redView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = redView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B8A987A51EEE9F71002BB0DA /* LaunchScreen.storyboard */,
 				B8A987A81EEE9F71002BB0DA /* Info.plist */,
 				B8A987971EEE9F71002BB0DA /* Supporting Files */,
+				B8A987AE1EEEA028002BB0DA /* redView.h */,
+				B8A987AF1EEEA028002BB0DA /* redView.m */,
 			);
 			path = TestGitHubRepository;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				B8A9879F1EEE9F71002BB0DA /* ViewController.m in Sources */,
 				B8A9879C1EEE9F71002BB0DA /* AppDelegate.m in Sources */,
+				B8A987B01EEEA028002BB0DA /* redView.m in Sources */,
 				B8A987991EEE9F71002BB0DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
